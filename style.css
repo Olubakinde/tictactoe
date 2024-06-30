@@ -30,6 +30,12 @@ hr {
     border: 5px solid #333;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .tile {
@@ -41,6 +47,7 @@ hr {
     align-items: center;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
+
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
@@ -64,6 +71,12 @@ hr {
     background-color: #ffc107; /* Yellow */
     color: #333;
     transition: background-color 0.3s ease;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 #reset {
